@@ -1,28 +1,3 @@
-B0 — Software construction care
--------------------------------------------------------------------------------
-%%VERSION%%
-
-B0 is a set of OCaml libraries and command line tools to configure,
-build and deploy generic software projects using modular and
-extensible descriptions written in OCaml. It provides a fully
-integrated and customizable software construction experience from
-development to deployment.
-
-B0's core build library provides reliable, efficient and minimal
-rebuilds by parallel invocation of memoized build commands. See the
-[propaganda](#propaganda) for more information.
-
-B0 provides the following packages and tooling.
-
-* `b0-lib` provides `B0`, the build library that implements a generic,
-  memoizing build system and `B0_care` a set of (optional)
-  [convenience descriptions](#convenience-descriptions).
-
-* `b0` provide the `b0` and `d0` command line tool that configure, build
-   and deploy software described in composable `B0.ml` description files.
-
-The B0 package suite is distributed under the ISC license. `b0-lib` has
-no dependencies and `b0` depends on [cmdliner][cmdliner].
 
 [cmdliner]: http://erratique.ch/software/cmdliner
 
